@@ -12,6 +12,9 @@ Template.chat.helpers({
   counter() {
     return Template.instance().counter.get();
   },
+  doubleNumber(num) {
+    return num*2;
+  }
 });
 
 Template.chat.events({
