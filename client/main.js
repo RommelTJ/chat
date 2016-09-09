@@ -18,7 +18,7 @@ Template.chat.helpers({
 });
 
 Template.chat.events({
-  'click button'(event, instance) {
+  'click .clickable'(event, instance) {
     // increment the counter when button is clicked
     instance.counter.set(instance.counter.get() + 1);
   },
